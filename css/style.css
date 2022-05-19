@@ -28,7 +28,7 @@
 }
 
 .jump {
-     animation: jump 300ms ease-out;
+     animation: jump 400ms ease-out;
 }
 
 .nuvens1 {
@@ -68,6 +68,10 @@
         bottom: 0;
     }
 
+    30% {
+        bottom: 180px;
+    }
+
     40% {
         bottom: 180px;
     }
@@ -77,6 +81,10 @@
     }
 
     60% {
+        bottom: 180px;
+    }
+
+    70% {
         bottom: 180px;
     }
 
