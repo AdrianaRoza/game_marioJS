@@ -25,12 +25,10 @@
     width: 150px;
     position: absolute;
     bottom: 0;
-   
 }
 
 .jump {
      animation: jump 500ms ease-out;
-
 }
 
 .nuvens1 {
@@ -39,12 +37,14 @@
     margin: 0px;
     animation: nuvens1-animation 20s infinite linear;
 }
+
 .nuvens2 {
      position: absolute;
      width: 90px;
      margin: 50px;
      animation: nuvens2-animation 15s infinite linear;
 }
+
 .nuvens3 {
     position: absolute;
     width: 130px;
@@ -113,5 +113,23 @@
     to{
         right: 100%;
     }
+}
+
+.divBtnJump {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(10, 167, 23);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
 }
 

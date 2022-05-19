@@ -1,5 +1,6 @@
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
+const btnJump = document.querySelector('.btnJump');
 
 const jump = () => {
     mario.classList.add('jump');
