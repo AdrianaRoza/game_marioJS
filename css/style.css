@@ -54,11 +54,11 @@
 
 @keyframes pipe-animation {
     from {
-        right: -80px;
+        right: -150px;
     }
     
     to {
-        right: 100%;
+        right: 150%;
     }
 }   
 
